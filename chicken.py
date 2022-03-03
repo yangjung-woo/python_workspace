@@ -23,4 +23,4 @@ for ch in combinations(chicken, M):
 print(minv)
 
 
-#출처: https://juhee-maeng.tistory.com/96 [simPLE]
+#출처: https://juhee-maeng.tistory.com/96 [simPLE]   1

@@ -14,4 +14,4 @@ while True:
         break
     del s[0]
     dfs(0, 0)
-    print()
+    print() # 1

@@ -17,3 +17,4 @@ for i in range(L, 101):
             break
 
 print(' '.join(x) if x != [] and len(x) <= 100 else -1)
+#1

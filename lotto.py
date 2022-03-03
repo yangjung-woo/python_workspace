@@ -10,4 +10,4 @@ while True:
         for j in i:
             print(j, end=' ')
         print()
-    print()
+    print() #1

@@ -66,4 +66,4 @@ int main(void)
 
 }
 
-//출처: https://jaimemin.tistory.com/1059 [꾸준함]
+//출처: https://jaimemin.tistory.com/1059 [꾸준함] 1
