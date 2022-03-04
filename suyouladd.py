@@ -1,8 +1,13 @@
-N, L = map(int, input().split())
+N, L = map(int, input().split()) #합이 N이면서 최소 길이가 L+1인 수열
+# input을 띄어쓰기 구분해서 각각 N 와 L에 int형으로 인가 
+# map(형태(int , float, str), 변수or 입력값)
+#
+
 x = []
 
+
 def get_arr(length, N):
-    x = N - (length * (length+1) // 2)
+    x = N - (length * (length+1) // 2)  #첫째항 
     return x / length
 
 for i in range(L, 101):

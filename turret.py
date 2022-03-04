@@ -12,4 +12,5 @@ for _ in range(n):
     elif abs(r1-r2) < distance < (r1+r2) :  # 두 원이 서로다른 두 점에서 만날 때
         print(2)
     else:
-        print(0)  # 그 외에asdasd
+        print(0)  # 
+        # d원의 방정식 문제 만나는점 0 1 2  3개의 case를 구현하는 간단문제
