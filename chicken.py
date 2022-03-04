@@ -12,13 +12,13 @@ for i in range(N):
         if board[i][j] == 1: house.append((i, j))
         elif board[i][j] == 2: chicken.append((i, j))
  
-minv = float('inf')
+minv = float('inf') #무한대
 for ch in combinations(chicken, M):
     sumv = 0
     for home in house:
-        sumv += min([abs(home[0]-i[0])+abs(home[1]-i[1]) for i in ch])
+        sumv += min([abs(home[0]-i[0])+abs(home[1]-i[1]) for i in ch]) #모든 집의 치킨 최단거리 합
         if minv <= sumv: break
-    if sumv < minv: minv = sumv
+    if sumv < minv: minv = sumv #만약 다 합친게 현재 최솟값보다 작으면 최솟갑 변경
  
 print(minv)
 
