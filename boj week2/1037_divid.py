@@ -14,6 +14,7 @@ else:
             low =M[i]
         if M[i]>high:
             high=M[i]
+            
     print(low*high)
 
 
