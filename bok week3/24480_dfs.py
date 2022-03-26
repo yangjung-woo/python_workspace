@@ -2,7 +2,7 @@ import sys
 from collections import deque
 
 n, m, r = map(int, sys.stdin.readline().rstrip().split())
-
+# n 정점수 m 간선 수 r 시작 노드 
 nodes = [[] for _ in range(n+1)]
 visited = [False for _ in range(n+1)]
 nodes_cnt = [0 for _ in range(n+1)]
