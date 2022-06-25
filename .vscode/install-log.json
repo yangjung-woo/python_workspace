@@ -1,0 +1,202 @@
+{"timestamp":"2022-04-03T01:07:56.652Z","level":"info","moduleName":"InstallerWinProcess","message":"[ 'trying to connect to the ipc server' ]"}
+{"timestamp":"2022-04-03T01:07:56.653Z","level":"debug","moduleName":"UnityIPCClient","message":"[ 'connecting to IPC Server Unity-hubInstallServer' ]"}
+{"timestamp":"2022-04-03T01:07:56.830Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"D:\\\\\\\\unityhub\",\"destinationFilename\":\"UnitySetup64-2020.3.32f1 (3).exe\",\"installerFilename\":\"UnitySetup64-2020.3.32f1 (3).exe\",\"installerPath\":\"D:\\\\\\\\project unity\",\"installerSizeInBytes\":2646107136,\"type\":0,\"uid\":\"2020.3.32f1\",\"editorVersion\":\"2020.3.32f1\"}'\n]"}
+{"timestamp":"2022-04-03T01:07:56.831Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-04-03T01:07:56.833Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-04-03T01:07:56.833Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: D:\\\\unityhub' ]"}
+{"timestamp":"2022-04-03T01:07:56.885Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-04-03T01:07:56.885Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-04-03T01:07:56.886Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 2646107136 bytes / 2.46 GB...' ]"}
+{"timestamp":"2022-04-03T01:07:56.887Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 466095775744 bytes' ]"}
+{"timestamp":"2022-04-03T01:07:56.887Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:07:56.887Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-04-03T01:07:56.888Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: D:\\\\project unity\\\\UnitySetup64-2020.3.32f1 (3).exe'\n]"}
+{"timestamp":"2022-04-03T01:07:56.890Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:07:56.890Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-04-03T01:07:56.890Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR' ]"}
+{"timestamp":"2022-04-03T01:07:56.896Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying presence of an existing editor installation...' ]"}
+{"timestamp":"2022-04-03T01:07:56.897Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying presence of an Editor binary in path: D:\\\\unityhub\\\\2020.3.32f1\\\\Editor\\\\Unity.exe'\n]"}
+{"timestamp":"2022-04-03T01:07:56.900Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Existing Editor Installation Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:07:56.901Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-04-03T01:07:56.901Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-04-03T01:07:56.901Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-04-03T01:07:56.902Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-04-03T01:07:56.930Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeEditorInstallation' ]"}
+{"timestamp":"2022-04-03T01:07:56.955Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-04-03T01:07:56.956Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromExe' ]"}
+{"timestamp":"2022-04-03T01:07:56.956Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[\n  'install D:\\\\project unity\\\\UnitySetup64-2020.3.32f1 (3).exe /S /D=D:\\\\unityhub\\\\2020.3.32f1'\n]"}
+{"timestamp":"2022-04-03T01:16:16.355Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterEditorInstallation' ]"}
+{"timestamp":"2022-04-03T01:16:16.356Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Check DotNet Core Prerequisites, os release',\n  [ '10', '0', '18363' ]\n]"}
+{"timestamp":"2022-04-03T01:16:16.357Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'major', 10, 'minor', 0 ]"}
+{"timestamp":"2022-04-03T01:16:16.358Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'shouldInstallKB2999226: ',\n  false,\n  'shouldInstallKB2533623: ',\n  false\n]"}
+{"timestamp":"2022-04-03T01:16:16.400Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Creating modules.json file at: D:\\\\unityhub\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T01:16:22.397Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"D:\\\\\\\\unityhub\",\"destinationFilename\":\"UnitySetup-WebGL-Support-for-Editor-2020.3.32f1 (1).exe\",\"installerFilename\":\"UnitySetup-WebGL-Support-for-Editor-2020.3.32f1 (1).exe\",\"installerPath\":\"D:\\\\\\\\project unity\",\"installerSizeInBytes\":318341120,\"type\":1,\"uid\":\"webgl\",\"editorVersion\":\"2020.3.32f1\",\"moduleDestination\":\"D:\\\\\\\\unityhub\\\\\\\\2020.3.32f1\"}'\n]"}
+{"timestamp":"2022-04-03T01:16:22.398Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-04-03T01:16:22.398Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-04-03T01:16:22.398Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: D:\\\\unityhub' ]"}
+{"timestamp":"2022-04-03T01:16:22.399Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"D:\\\\\\\\unityhub\",\"destinationFilename\":\"UnityDocumentation (4).zip\",\"installerFilename\":\"UnityDocumentation (4).zip\",\"installerPath\":\"D:\\\\\\\\project unity\",\"installerSizeInBytes\":284664522,\"type\":1,\"uid\":\"documentation\",\"editorVersion\":\"2020.3.32f1\",\"moduleDestination\":\"D:\\\\\\\\unityhub\\\\\\\\2020.3.32f1\\\\\\\\Editor\\\\\\\\Data\"}'\n]"}
+{"timestamp":"2022-04-03T01:16:22.400Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-04-03T01:16:22.400Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-04-03T01:16:22.400Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: D:\\\\unityhub' ]"}
+{"timestamp":"2022-04-03T01:16:22.401Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.402Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-04-03T01:16:22.402Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 318341120 bytes / 303.59 MB...' ]"}
+{"timestamp":"2022-04-03T01:16:22.402Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 460873134080 bytes' ]"}
+{"timestamp":"2022-04-03T01:16:22.402Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.402Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-04-03T01:16:22.403Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: D:\\\\project unity\\\\UnitySetup-WebGL-Support-for-Editor-2020.3.32f1 (1).exe'\n]"}
+{"timestamp":"2022-04-03T01:16:22.406Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.406Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-04-03T01:16:22.406Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 284664522 bytes / 271.48 MB...' ]"}
+{"timestamp":"2022-04-03T01:16:22.407Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 460873134080 bytes' ]"}
+{"timestamp":"2022-04-03T01:16:22.407Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.407Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-04-03T01:16:22.408Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: D:\\\\project unity\\\\UnityDocumentation (4).zip'\n]"}
+{"timestamp":"2022-04-03T01:16:22.409Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.409Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-04-03T01:16:22.410Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2022-04-03T01:16:22.411Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Skipping module destination check for whitelisted item: documentation'\n]"}
+{"timestamp":"2022-04-03T01:16:22.411Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying selected value of module in modules.json file at D:\\\\unityhub\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T01:16:22.414Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json File Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-04-03T01:16:22.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-04-03T01:16:22.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.421Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.422Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-04-03T01:16:22.423Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2022-04-03T01:16:22.423Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Skipping module destination check for all Windows binary installers: webgl'\n]"}
+{"timestamp":"2022-04-03T01:16:22.423Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying selected value of module in modules.json file at D:\\\\unityhub\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T01:16:22.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json File Check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-04-03T01:16:22.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-04-03T01:16:22.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-04-03T01:16:22.452Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeModuleInstallation' ]"}
+{"timestamp":"2022-04-03T01:16:22.452Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Creating the folder of webgl, if needed: D:\\\\unityhub\\\\2020.3.32f1'\n]"}
+{"timestamp":"2022-04-03T01:16:22.455Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-04-03T01:16:22.456Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromExe' ]"}
+{"timestamp":"2022-04-03T01:16:22.456Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[\n  'install D:\\\\project unity\\\\UnitySetup-WebGL-Support-for-Editor-2020.3.32f1 (1).exe /S /D=D:\\\\unityhub\\\\2020.3.32f1'\n]"}
+{"timestamp":"2022-04-03T01:16:22.480Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeModuleInstallation' ]"}
+{"timestamp":"2022-04-03T01:16:22.480Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Creating the folder of documentation, if needed: D:\\\\unityhub\\\\2020.3.32f1/Editor/Data'\n]"}
+{"timestamp":"2022-04-03T01:16:22.481Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-04-03T01:16:22.481Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromZip' ]"}
+{"timestamp":"2022-04-03T01:23:16.180Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[ 'unzip finished' ]"}
+{"timestamp":"2022-04-03T01:23:16.186Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterModuleInstallation' ]"}
+{"timestamp":"2022-04-03T01:23:16.219Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Updating modules.json file at: D:\\\\unityhub\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T01:23:16.241Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Updating modules.json file at: D:\\\\unityhub\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T01:23:47.325Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterModuleInstallation' ]"}
+{"timestamp":"2022-04-03T02:33:53.200Z","level":"debug","moduleName":"UnityIPCClient","message":"[ 'disconnected from Unity-hubInstallServer' ]"}
+{"timestamp":"2022-04-03T02:54:49.832Z","level":"info","moduleName":"InstallerWinProcess","message":"[ 'trying to connect to the ipc server' ]"}
+{"timestamp":"2022-04-03T02:54:49.832Z","level":"debug","moduleName":"UnityIPCClient","message":"[ 'connecting to IPC Server Unity-hubInstallServer' ]"}
+{"timestamp":"2022-04-03T02:54:50.044Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"D:\\\\\\\\Unity\",\"destinationFilename\":\"UnitySetup64-2020.3.32f1.exe\",\"installerFilename\":\"UnitySetup64-2020.3.32f1.exe\",\"installerPath\":\"D:\\\\\\\\unityeditor\",\"installerSizeInBytes\":2646107136,\"type\":0,\"uid\":\"2020.3.32f1\",\"editorVersion\":\"2020.3.32f1\"}'\n]"}
+{"timestamp":"2022-04-03T02:54:50.045Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-04-03T02:54:50.047Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-04-03T02:54:50.047Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: D:\\\\Unity' ]"}
+{"timestamp":"2022-04-03T02:54:50.077Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-04-03T02:54:50.079Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-04-03T02:54:50.079Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 2646107136 bytes / 2.46 GB...' ]"}
+{"timestamp":"2022-04-03T02:54:50.080Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 458718838784 bytes' ]"}
+{"timestamp":"2022-04-03T02:54:50.081Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-04-03T02:54:50.081Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-04-03T02:54:50.081Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: D:\\\\unityeditor\\\\UnitySetup64-2020.3.32f1.exe'\n]"}
+{"timestamp":"2022-04-03T02:54:50.096Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-04-03T02:54:50.097Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-04-03T02:54:50.097Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR' ]"}
+{"timestamp":"2022-04-03T02:54:50.098Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying presence of an existing editor installation...' ]"}
+{"timestamp":"2022-04-03T02:54:50.098Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying presence of an Editor binary in path: D:\\\\Unity\\\\2020.3.32f1\\\\Editor\\\\Unity.exe'\n]"}
+{"timestamp":"2022-04-03T02:54:50.100Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Existing Editor Installation Check: Passed' ]"}
+{"timestamp":"2022-04-03T02:54:50.100Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-04-03T02:54:50.100Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-04-03T02:54:50.101Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-04-03T02:54:50.101Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-04-03T02:54:50.114Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeEditorInstallation' ]"}
+{"timestamp":"2022-04-03T02:54:50.115Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-04-03T02:54:50.116Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromExe' ]"}
+{"timestamp":"2022-04-03T02:54:50.116Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[\n  'install D:\\\\unityeditor\\\\UnitySetup64-2020.3.32f1.exe /S /D=D:\\\\Unity\\\\2020.3.32f1'\n]"}
+{"timestamp":"2022-04-03T03:02:11.673Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterEditorInstallation' ]"}
+{"timestamp":"2022-04-03T03:02:11.674Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Check DotNet Core Prerequisites, os release',\n  [ '10', '0', '18363' ]\n]"}
+{"timestamp":"2022-04-03T03:02:11.674Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'major', 10, 'minor', 0 ]"}
+{"timestamp":"2022-04-03T03:02:11.675Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'shouldInstallKB2999226: ',\n  false,\n  'shouldInstallKB2533623: ',\n  false\n]"}
+{"timestamp":"2022-04-03T03:02:11.683Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Creating modules.json file at: D:\\\\Unity\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T03:02:15.980Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"D:\\\\\\\\Unity\",\"destinationFilename\":\"UnitySetup-WebGL-Support-for-Editor-2020.3.32f1.exe\",\"installerFilename\":\"UnitySetup-WebGL-Support-for-Editor-2020.3.32f1.exe\",\"installerPath\":\"D:\\\\\\\\unityeditor\",\"installerSizeInBytes\":318341120,\"type\":1,\"uid\":\"webgl\",\"editorVersion\":\"2020.3.32f1\",\"moduleDestination\":\"D:\\\\\\\\Unity\\\\\\\\2020.3.32f1\"}'\n]"}
+{"timestamp":"2022-04-03T03:02:15.980Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-04-03T03:02:15.981Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-04-03T03:02:15.981Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: D:\\\\Unity' ]"}
+{"timestamp":"2022-04-03T03:02:15.982Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"D:\\\\\\\\Unity\",\"destinationFilename\":\"UnityDocumentation.zip\",\"installerFilename\":\"UnityDocumentation.zip\",\"installerPath\":\"D:\\\\\\\\unityeditor\",\"installerSizeInBytes\":284664522,\"type\":1,\"uid\":\"documentation\",\"editorVersion\":\"2020.3.32f1\",\"moduleDestination\":\"D:\\\\\\\\Unity\\\\\\\\2020.3.32f1\\\\\\\\Editor\\\\\\\\Data\"}'\n]"}
+{"timestamp":"2022-04-03T03:02:15.982Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-04-03T03:02:15.982Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-04-03T03:02:15.983Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: D:\\\\Unity' ]"}
+{"timestamp":"2022-04-03T03:02:15.984Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.984Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-04-03T03:02:15.985Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 318341120 bytes / 303.59 MB...' ]"}
+{"timestamp":"2022-04-03T03:02:15.987Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 453495672832 bytes' ]"}
+{"timestamp":"2022-04-03T03:02:15.987Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.987Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-04-03T03:02:15.988Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: D:\\\\unityeditor\\\\UnitySetup-WebGL-Support-for-Editor-2020.3.32f1.exe'\n]"}
+{"timestamp":"2022-04-03T03:02:15.988Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.988Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-04-03T03:02:15.989Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 284664522 bytes / 271.48 MB...' ]"}
+{"timestamp":"2022-04-03T03:02:15.989Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 453495672832 bytes' ]"}
+{"timestamp":"2022-04-03T03:02:15.989Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.989Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-04-03T03:02:15.989Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: D:\\\\unityeditor\\\\UnityDocumentation.zip'\n]"}
+{"timestamp":"2022-04-03T03:02:15.990Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.991Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-04-03T03:02:15.991Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2022-04-03T03:02:15.991Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Skipping module destination check for all Windows binary installers: webgl'\n]"}
+{"timestamp":"2022-04-03T03:02:15.992Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying selected value of module in modules.json file at D:\\\\Unity\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T03:02:15.992Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.993Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-04-03T03:02:15.993Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2022-04-03T03:02:15.993Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Skipping module destination check for whitelisted item: documentation'\n]"}
+{"timestamp":"2022-04-03T03:02:15.993Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying selected value of module in modules.json file at D:\\\\Unity\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T03:02:15.995Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json File Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.996Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-04-03T03:02:15.996Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-04-03T03:02:15.996Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.996Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.997Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json File Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.997Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-04-03T03:02:15.998Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-04-03T03:02:15.998Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:15.998Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-04-03T03:02:16.049Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeModuleInstallation' ]"}
+{"timestamp":"2022-04-03T03:02:16.049Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'Creating the folder of webgl, if needed: D:\\\\Unity\\\\2020.3.32f1' ]"}
+{"timestamp":"2022-04-03T03:02:16.051Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-04-03T03:02:16.053Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromExe' ]"}
+{"timestamp":"2022-04-03T03:02:16.053Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[\n  'install D:\\\\unityeditor\\\\UnitySetup-WebGL-Support-for-Editor-2020.3.32f1.exe /S /D=D:\\\\Unity\\\\2020.3.32f1'\n]"}
+{"timestamp":"2022-04-03T03:02:16.075Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeModuleInstallation' ]"}
+{"timestamp":"2022-04-03T03:02:16.075Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Creating the folder of documentation, if needed: D:\\\\Unity\\\\2020.3.32f1/Editor/Data'\n]"}
+{"timestamp":"2022-04-03T03:02:16.076Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-04-03T03:02:16.077Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromZip' ]"}
+{"timestamp":"2022-04-03T03:07:29.319Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[ 'unzip finished' ]"}
+{"timestamp":"2022-04-03T03:07:29.332Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterModuleInstallation' ]"}
+{"timestamp":"2022-04-03T03:07:29.404Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Updating modules.json file at: D:\\\\Unity\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T03:07:29.418Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Updating modules.json file at: D:\\\\Unity\\\\2020.3.32f1\\\\modules.json'\n]"}
+{"timestamp":"2022-04-03T03:07:52.444Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterModuleInstallation' ]"}
+{"timestamp":"2022-04-03T03:26:00.719Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"D:\\\\\\\\Unity\",\"destinationFilename\":\"UnitySetup64-2021.2.18f1.exe\",\"installerFilename\":\"UnitySetup64-2021.2.18f1.exe\",\"installerPath\":\"D:\\\\\\\\unityeditor\",\"installerSizeInBytes\":2324940800,\"type\":0,\"uid\":\"2021.2.18f1\",\"editorVersion\":\"2021.2.18f1\"}'\n]"}
+{"timestamp":"2022-04-03T03:26:00.722Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-04-03T03:26:00.725Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-04-03T03:26:00.726Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: D:\\\\Unity' ]"}
+{"timestamp":"2022-04-03T03:26:00.728Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-04-03T03:26:00.728Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-04-03T03:26:00.729Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 2324940800 bytes / 2.17 GB...' ]"}
+{"timestamp":"2022-04-03T03:26:00.729Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 448598908928 bytes' ]"}
+{"timestamp":"2022-04-03T03:26:00.730Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:26:00.730Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-04-03T03:26:00.730Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: D:\\\\unityeditor\\\\UnitySetup64-2021.2.18f1.exe'\n]"}
+{"timestamp":"2022-04-03T03:26:00.731Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:26:00.731Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-04-03T03:26:00.731Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR' ]"}
+{"timestamp":"2022-04-03T03:26:00.732Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying presence of an existing editor installation...' ]"}
+{"timestamp":"2022-04-03T03:26:00.732Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying presence of an Editor binary in path: D:\\\\Unity\\\\2021.2.18f1\\\\Editor\\\\Unity.exe'\n]"}
+{"timestamp":"2022-04-03T03:26:00.733Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Existing Editor Installation Check: Passed' ]"}
+{"timestamp":"2022-04-03T03:26:00.733Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-04-03T03:26:00.733Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-04-03T03:26:00.733Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-04-03T03:26:00.733Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-04-03T03:26:00.745Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeEditorInstallation' ]"}
+{"timestamp":"2022-04-03T03:26:00.747Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-04-03T03:26:00.747Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromExe' ]"}
+{"timestamp":"2022-04-03T03:26:00.748Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[\n  'install D:\\\\unityeditor\\\\UnitySetup64-2021.2.18f1.exe /S /D=D:\\\\Unity\\\\2021.2.18f1'\n]"}
