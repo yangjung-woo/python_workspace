@@ -7,7 +7,7 @@ int main(){
     int L;
     cin>>n>>L;
 
-    long int s = -1; //수열중 가장 작은수
+    long int s = -1; // 가장 작은수
     long int e = -1;// 수열중 가장 큰 수 
     for(long int i = L ; i <= 100 ; i++){
         // i가 홀수일 때     /L이 L~100까지 반복

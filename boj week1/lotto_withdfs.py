@@ -1,5 +1,5 @@
 def dfs(start, depth): 
-    if depth == 6: ## 입력한 번호수 6 개 그대로 조합 출력
+    if depth == 6: ## 입력한 번호수 6 개 조합 출력
         for i in range(6):
             print(combi[i], end=' ')
         print()

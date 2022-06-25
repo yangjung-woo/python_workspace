@@ -7,7 +7,7 @@ x = []
 
 
 def get_arr(length, N):
-    x = N - (length * (length+1) // 2)  #첫째항 
+    x = N - (length * (length+1) // 2)  #첫째 
     return x / length
 
 for i in range(L, 101):

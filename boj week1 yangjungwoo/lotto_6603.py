@@ -2,7 +2,7 @@ from itertools import combinations
 
 while True:
     s = list(map(int, input().split())) #로또 조합을 s 에 삽입
-    #s에 input을 _구분하여 int형으로 mapping해서 list로 묶어 인가
+    #s에 input을 _구분하여 int형으로 mapping해서 list로  인가
     #list(a[8] or 배열형태등 다수 변수집합 )  
     if s[0] == 0:
         break

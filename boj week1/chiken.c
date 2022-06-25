@@ -14,7 +14,7 @@ vector<pair<int, int>> house, chicken;
 
 bool visited[13];
 
-//맨해튼 거리
+//맨해튼
 int distance(pair<int, int> a, pair<int, int> b)
 {
         return abs(a.first - b.first) + abs(a.second - b.second);
