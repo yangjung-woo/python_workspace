@@ -2,7 +2,7 @@ from pickletools import string1
 from random import * #random 선언 
 
 #   quiz 
-print (randint(4,28)) #1~46중 숫자 하나 출력
+print (randint(4,28)) #1~46중 하나 출력
 studyday =randint(4,28)
 print("오프라인 스터디 모임 날자는 매월"+str(studyday)+"일로 정해졌습니다")
 #문자열 출력

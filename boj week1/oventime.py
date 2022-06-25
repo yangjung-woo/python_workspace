@@ -2,7 +2,7 @@
 while (1):
 
  hour,minute = input("시간과 분을 입력해주세요: ").split() #공백으로 문자열 구분
-# input은 문자열로 입력받기 때문에 정수로 변환을 해줘야 조건문에 사용 가능
+# input은 문자열로 입력받기 때문에 정수로 변환 -> 조건문에 사용 가능
  hour=int(hour)
  minute=int(minute)
  if 0<=hour<=23 and 0<=minute<=59:break

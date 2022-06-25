@@ -1,6 +1,6 @@
 from itertools import combinations
  
-## 맵크기(N), 치킨집 최대 선택가능개수(M)
+## 맵크기(N), 치킨집 최대 
 N, M = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(N)]
  

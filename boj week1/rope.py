@@ -1,7 +1,7 @@
 def solution(arr1):
     answer = 0
     arr1.sort(reverse=True)
-    for i in range(N): #i=0 부터 시작하므로 i+1 
+    for i in range(N): #i=0 부터 시작 i+1 
         arr1[i] = arr1[i] * (i + 1)
     return max(arr1)
  
