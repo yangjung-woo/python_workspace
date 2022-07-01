@@ -1,7 +1,10 @@
 import sys
 from collections import deque
-
-
+def suger_calculator(now_suger,now_l):
+    if now_suger>=now_l:
+        # return now suger
+    else: 
+        #재귀호출
 n,m = map(int ,input().split())
 s_list =deque()
 
@@ -13,8 +16,5 @@ for i in range(n):
 
 s_list.sort(reverse=True) # L 당 설탕수  내림차순 정렬
 
-while (i != m):
-    if s_list[0][1]>= m:
-        parent = 
-
+suger_calculator(0,m)
 
