@@ -16,10 +16,11 @@ def case_of_arr ():
     cases=[]
     cases.append(sotring(int(string[0]), len(string)))
     if len(sotring) >= 2:
-        cases.append(sotring(int(sotring[0:2]), len(sotring))) #입력된 문자열이 두 자리 수부터 시작한다고 가정할 때 생성되는 오름차순 문자열
+        cases.append(sotring(int(sotring[0:2]), len(sotring))) #10~99
     if len(sotring) >= 3:
-        cases.append(sotring(int(sotring[0:3]), len(sotring))) #입력된 문자열이 세 자리 수부터 시작한다고 가정할 때 생성되는 오름차순 문자열
-  
+        cases.append(sotring(int(sotring[0:3]), len(sotring))) #100~999
+    if len(sotring) >= 4:
+        cases.append(sotring(int(sotring[0:4]), len(sotring))) #1000~2889
     for i in range(3):
      if sotring == cases[i][0]:
         print(cases[i][1], cases[i][2])
