@@ -22,7 +22,7 @@ def main():
         else:
             print('['+','.join(queue)+']')
 
-def do_work(commands, lenth , arr): 
+def do_work(commands, lenth , queue): 
     one_more_jump =False
     for k in range(len(commands)):
 
@@ -37,11 +37,11 @@ def do_work(commands, lenth , arr):
             else:
 
                 if commands[k] == 'R': #뒤집기
-                    arr.reverse()
+                    queue.reverse()
 
                 elif commands[k] == 'D': # 버리기 
-                    if len(arr) >0:
-                        arr.popleft()
+                    if len(queue) >0:
+                        queue.popleft()
                     else:
                         return False
     return True
