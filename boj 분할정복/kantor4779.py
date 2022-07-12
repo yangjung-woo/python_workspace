@@ -4,9 +4,9 @@ setrecursionlimit(10 ** 6)
 
 def div(s, idx):
     ls = len(s)
-    if ls == 3 and idx != 1:
+    if ls == 3 and idx != 1: #  최하단 '- -'
         return '- -'
-    elif ls >= 3 and idx == 1:
+    elif ls >= 3 and idx == 1:  # 각 0 1 2 (s) 중  1 의 경우 '-' -> ' ' 로 교체
         return s.replace('-', ' ')
 
     arr = []
