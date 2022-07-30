@@ -31,7 +31,7 @@ def do_work(commands, lenth , queue):
                 reverse_flag=True
 
         elif commands[k]=='D':
-            if len(queue)==0:y
+            if len(queue)==0:
                 return False
             else:
                 if reverse_flag==False:
