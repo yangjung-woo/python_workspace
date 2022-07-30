@@ -1,7 +1,7 @@
 import sys
 sys.setrecursionlimit(10**5)
 
-
+# 연결된 vertex 집합중에 트리에서 가장 긴 간선 출력 
 def main():
     N = int(input())
     G = [[] for i in range(N)] # 간선간 연결 정보 저장
