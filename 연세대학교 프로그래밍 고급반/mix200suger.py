@@ -1,10 +1,13 @@
 import sys
 from collections import deque
+
 def suger_calculator(now_suger,now_l):
     if now_suger>=now_l:
-        # return now suger
-    else: 
-        #재귀호출
+         return now_suger
+    else:
+        return 0
+        
+
 n,m = map(int ,input().split())
 s_list =deque()
 
