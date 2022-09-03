@@ -1,0 +1,28 @@
+<!-- rm rem 은 가변성은 있으나 반응형 웹에 사용되긴 어려움 -->
+<!-- 따라서 viewport(웹 페이지) 사이즈에 반응하여 가변하는 단위 -->
+<!-- vw ,vh     vmin vmax 를 알아보자  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다른 상대단위들</title>
+    <style>
+        p{  
+            /* <body>의 객체의 글꼴 크기, 사이즈, 여백 등을 설정하는 것은 head내 style */
+            margin: 0;
+
+            font-size: 20vmin;   /*vmin , vmax*/
+            /* viewport 의 width / height 중 작은거/ 큰거에 맞춰 font-size 변화 */
+            /* font-size: 50vh; */
+            /* N vw : N% viewport- width  로 viewport 크기가 변하면 font-size(글자 1개 단위)도 변하도록 함*/
+        }
+    </style>
+</head>
+
+
+<body>
+    <p>민트국밥</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!-- 기본단위 픽셀  - > 절대길이 단위(가변성 x) 즉 반응형 웹에서 글자가 잘릴수 있음 -->
+<!-- em -> 부모요소의 글꼴 크기 상대단위 -->
+<!-- rem  -> root 요소의 글꼴 크기 상대단위  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM and rem</title>
+    <style>
+        .outer{
+            font-size: 24px;
+     /* inner는 outer의 하위 즉 상속관계이기때문에 outer의 속성을 그대로 물려받는다  --> 
+     <!-- 따라서 font size basic 16px -> 24px로 변환 -*/
+        }
+        .inner{
+            font-size: em; 
+            /* em: 부모 픽셀 사이즈 단위 의 2배 이므로 24px *2 =48px 이 된다 */
+            display: inline-block; /*블록 포시 */
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+
+            /* padding 과 margin의 em은  inner내 font-size 의 영향을 받는다(outer 영향 x) */
+            padding: 1em;
+            margin: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class = "outer">
+     <div class ="inner">고양이 </div>  
+     <!-- 기본 글꼴크기 16px -->
+     <!-- inner 는 정의되었으나 outer 는 정의되지 않았기에 표시되지않는다-->
+     
+</body>
+</html>
