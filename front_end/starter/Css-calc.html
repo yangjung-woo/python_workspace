@@ -1,0 +1,45 @@
+<!-- width:calc(계산식) 계산식의 결과 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .message{
+            display: flex;
+            justify-content:  space-around;
+            align-items:  center;
+            height: 100px;
+            padding: 0.5em;
+            border:  1px solid #000;
+            font-size: 1.5em;
+        }
+        .message__text{
+            /* width: 80%; */
+            width : calc(100%-100px);
+            height: 100%;
+            border: none;
+            resize: none;
+        }
+        .message__text:focus { outline: none;} 
+        .message__send{
+            width: 100px;
+            height: 100%;
+            border-radius: 8px;
+            background-color: aqua;
+        }
+        /* 지금까지 만든 프로그램은 메세지 입력란과 전송버튼 사이의 여백이 웹 페이지 크기에따라 변함= 이쁘지않음  */
+    </style>
+</head>
+<body> 
+    <div class ="message">
+        <!-- <textarea name="message__text"></textarea> -->
+        <textarea name="message__text" id="" cols="70" rows="5"></textarea>
+        <button class ="message__send"> send</button>
+    </div>
+    
+</body>
+</html>
