@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가변동영상</title>
+    <style>
+        /* video{
+            /* 동영상 크기 조정 , 자동으로  
+            width: 100%; 
+        } */
+        .player{
+            padding-top: 56.25%;   /*종횡비 */
+            position: relative;
+        }
+        iframe{
+            position: absolute;
+            /* 좌상단에 고정  */
+            top :0; left: 0;
+            width: 100%;
+            height: 100%;
+
+
+
+            /* width:100%; */
+            /* 크기조절  만으로 가변 동영상을 제어하는데 한계가 있다  방법1 여백-> 절대값  */
+        }
+        /* 종 횡비 가 여백(div)를 조정하는 역할 */
+
+
+    </style>
+</head>
+<body>
+    <!-- 일단 동영상이 없으므로 동작을 확인 x   src= name , coontrol 제어 추가  -->
+    <!-- <video src="video_name.mpt" controls></video> -->
+    <!-- 다른 플랫폼 (네이버 카페 에서 유튜브 동영상) 공유 ->퍼가기   저작권 문제때문에 안되는 경우도 발생  -->
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/_1tWTpgipcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <div class="player">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BYMM5Dh_tSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
