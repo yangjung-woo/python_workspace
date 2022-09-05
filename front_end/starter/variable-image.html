@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가변 이미지</title>
+    <style>
+        /* img{
+            width: 50%;
+             이 방식을 사용시 viewport의 크기가 커지면 원본이미지에 비해 열화된 이미지가 출력될수 있다 
+            max-width: 421px ;   /*이미지의 최대 폭 설정 *
+        } 
+        */
+
+    </style>
+</head>
+<body>
+    
+    <!-- 조건문을 포함해서 이미지 처리를 하고 싶다 !  picture 구문  -->
+    <picture>
+        <!-- 픽셀> 1200px  이면 moon 이미지를 출력 -->
+        <source srcset="moon.jpg" media="(min-width: 1200px)">  
+        <!-- 픽셀> 800px  이면 ground 이미지를 출력 -->
+        <source srcset="ground.jpg" media="(min-width: 800px)">  
+        <!-- no query  기본이미지 gradation -->
+        <img src ="gradation.jpg"> 
+
+    </picture>
+
+</body>
+</html>
