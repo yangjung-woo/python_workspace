@@ -1,7 +1,8 @@
 .header{
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0; 
+    /* header 좌상단에 고정  */
     width: 100%;
     background-color: white;
     box-shadow: 0 0 3px black;
@@ -35,5 +36,26 @@
     max-width: 100%;
 }
 .header__input--text{
-    width: calc(100%-60px);
+     width: calc(100%-60px); 
+     height: 40px;
+     padding: 0 6px;
+     border: 1px solid #8f8f8f;
+     border-right: none;
+     border-radius: 2px 0 0 2px;
+}
+.header__input--button{
+    width: 60px;
+    height: 40px;
+    border: 1px solid #8f8f8f;
+    /* 좌측 경계선 제거  border-left: none; */
+    border-radius: 0 2px 2px 0;
+}
+.header__end{
+    display: flex;
+    
+}
+.header__search{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
 }

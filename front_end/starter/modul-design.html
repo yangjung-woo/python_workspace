@@ -7,27 +7,27 @@
     <title>Document</title>
     <link href="css/reset.css" rel="stylesheet"> 
     <!-- 웹 초기값 reset.css 링크 -->
-    <link href="css/header.css" rel="headersheet">
+    <link href="css/header.css" rel="stylesheet">
 
 </head>
 <body>
     <header class ="header">
-        <div class = "header_wrapper">
-            <h1 class ="header_start">
-                <button class ="header_hambuger">&#9776;</button>    
+        <div class = "header__wrapper">
+            <h1 class ="header__start">
+                <button class ="header__hambuger">&#9776;</button>    
                 <!-- 햄버거 아이콘  -->
-                <span class="header_title">YouTube </span>
+                <span class="header__title">YangTube </span>
             </h1>
-            <div class="header_center">
+            <div class="header__center">
                 <!-- 검색창을 위한 form 태그  return false ? : form 에서 버튼 클릭시 데이터 전송 x -->
-                <form class="header_form" onsubmit="return false;">   
-                    <input class="header_input--text" placeholder="내가 찜한 동영상">
-                    <button class ="header_input--button">검색</button>
+                <form class="header__form" onsubmit="return false;">   
+                    <input class="header__input--text" placeholder="Search">
+                    <button class ="header__input--button">검색</button>
                 </form>
             </div>  <!-- head center 구역 -->
-            <div class="header_end">
-                <button class="header_search">&#128269;</button>
-                <div class="header_profile"></div>
+            <div class="header__end">
+                <button class="header__search">&#128269;</button>
+                <div class="header__profile"></div>
             </div>
         </div> <!-- 헤더 wrapper 구역  -->
     </header>
