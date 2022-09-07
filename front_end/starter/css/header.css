@@ -7,9 +7,33 @@
     box-shadow: 0 0 3px black;
     z-index: 20;
 }
-.header_wrapper{
+.header__wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 60px;
+    padding:  0 16px;
+}
+.header__start{
+    height: 40px;
+    line-height: 40px;
+}
+.header__hambuger{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+.header__title{
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+.header__center{
+    width: 50%;
+}
+.header__form{
+    display: flex;
+    max-width: 100%;
+}
+.header__input--text{
+    width: calc(100%-60px);
 }
