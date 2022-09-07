@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/reset.css" rel="stylesheet"> 
+    <!-- 웹 초기값 reset.css 링크 -->
+    <link href="css/header.css" rel="headersheet">
+
+</head>
+<body>
+    <header class ="header">
+        <div class = "header_wrapper">
+            <h1 class ="header_start">
+                <button class ="header_hambuger">&#9776;</button>    
+                <!-- 햄버거 아이콘  -->
+                <span class="header_title">YouTube </span>
+            </h1>
+            <div class="header_center">
+                <!-- 검색창을 위한 form 태그  return false ? : form 에서 버튼 클릭시 데이터 전송 x -->
+                <form class="header_form" onsubmit="return false;">   
+                    <input class="header_input--text" placeholder="내가 찜한 동영상">
+                    <button class ="header_input--button">검색</button>
+                </form>
+            </div>  <!-- head center 구역 -->
+            <div class="header_end">
+                <button class="header_search">&#128269;</button>
+                <div class="header_profile"></div>
+            </div>
+        </div> <!-- 헤더 wrapper 구역  -->
+    </header>
+    
+</body>
+</html>
