@@ -55,7 +55,34 @@
     
 }
 .header__search{
+    display: none;
+    margin-right: 5px;
     border: none;
     background-color: transparent;
     font-size: 1.5rem;
+}
+.header__profile{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 50%;
+    background-color: tomato;
+
+}
+/* 지금까지 yangtube의 기본 골격을 구성한 작업
+
+이제 화면 크기에 따라(조건) 변형하는 미디어 쿼리 작성*/
+@media screen and (max-width:800px){
+    .header__title{
+        display: none;
+    }
+
+}
+@media screen and (max-width:400px){
+    .header__center{
+        display: none;
+    }
+    .header__search{
+        display: block;
+    }
 }

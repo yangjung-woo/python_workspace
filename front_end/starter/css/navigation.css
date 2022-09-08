@@ -1,0 +1,85 @@
+.nav{  
+    /* navigation 의 가장 부모 전체 틀 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* 좌상단에 고정   하지만 헤더에 가려짐 */
+    z-index: 10;
+}
+.nav__wrapper{
+    /* 실질적인 네비게이션 모형 */
+    min-width: 200px;
+    min-height: 100vh;
+    background-color: gray;
+    padding: 80px 0 0 0;
+    /* top bottom left right  top에 여백*/
+    list-style: none;
+}
+.nav__wrapper li{
+    /* nav__wrapper 하위 li: 버튼들 형식 지정  */
+    display: flex; 
+    padding: 10px 16px 10px;
+    /* 여백 설정 */
+}
+.nav__wrapper li:hover{
+    /* 객체 : hover = 마우스를 올렸을때 동작  */
+    background-color: blue;
+}
+.nav__icon1{
+    border: none;
+    background-color: transparent;
+    /* 투명색 */
+    font-size: 1.5rem;
+}
+.nav__icon2{
+    border: none;
+    background-color: transparent;
+    /* 투명색 */
+    font-size: 1.5rem;
+}
+.nav__icon3{
+    border: none;
+    background-color: transparent;
+    /* 투명색 */
+    font-size: 1.5rem;
+}
+.nav__menu1{
+    margin: 0 0 0 8px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+
+}
+.nav__menu2{
+    margin: 0 0 0 8px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+
+}
+.nav__menu3{
+    margin: 0 0 0 8px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+
+}
+@media screen and (max-width: 800px) {
+    .nav__menu1{
+        display: none;
+    }
+    .nav__menu2{
+        display: none;
+    }
+    .nav__menu3{
+        display: none;
+    }
+    .nav__wrapper{
+        min-width: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav__wrapper{
+        display: none;
+    }
+}

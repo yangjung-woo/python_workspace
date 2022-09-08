@@ -1,0 +1,74 @@
+.thumbs__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    /* 1차원 정렬을 여려 줄로 할수 있다 */
+    justify-content: space-between;
+    /* 헤더와 메뉴부분이 가리지 않게 margin 부여 */
+    margin: 60px 0 0 200px;
+    padding: 20px 0 0 10px;
+}
+.thumbs__item{
+    width: 25%;
+    margin: 0 0 15px 0;
+    padding: 0 10px;
+}
+.thumbs__thumbnail{
+    max-width: 100%;
+    margin: 0 0 10px 0;
+}
+/* 텍스트 영상제목/게시자/조회수 영역 */
+.thumbs__info{
+    display: flex;
+/* 텍스트 들이 좌우로 붙어야 하기 때문에 */
+}
+.thumbs__profile{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.thumbs__text{
+    width:calc(100%-36px);
+    padding-left: 10px;
+}
+.thumbs__text--title{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+.thumbs__text--owner{
+    font-size: 1rem;
+    color: #aeaeae;
+    margin-bottom:0.2em;
+    
+}
+.thumbs__text--anal{
+    font-size: 0.9rem;
+    color: #aeaeae;
+}
+@media screen and (max-width:1200px){
+    .thumbs__item{
+        width: 33%;
+    }
+
+}
+@media screen and (max-width:800px){
+    .thumbs__wrapper{
+        margin: 60px 0 0 60px;
+    }
+    /* 800이하가 되었을때 좌측 메뉴항목이 짧아지면서 생긴 여백 200px -> 60px로 변경 */
+    .thumbs__item{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .thumbs__wrapper{
+        margin: 60px 0 0 0;
+        padding: 20px 0 0 0;
+    }
+    /* 400이하가 되었을때 좌측 메뉴항목이 짧아지면서 생긴 여백 200px -> 0px로 변경 */
+    .thumbs__item{
+        width: 100%;
+    }
+}
